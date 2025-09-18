@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        @keyframes fadeout {
+            100% {
+                opacity: 0;
+            }
+        }
+        #r {
+            height: 100vw;
+            width: 14.29vw;
+            position: absolute;
+            background-color: red;
+            animation-name: fadeout;
+            animation-duration: 1s;
+            animation-delay: 0.1s;
+            animation-timing-function: cubic-bezier(.5,.51,.54,.54);
+            /* set the iterations*/
+            animation-iteration-count: 6;
+            /* set the direction to alternate*/
+            animation-direction: alternate;
+        }
+        #o {
+            height: 100vw;
+            width: 14.29vw;
+            position: absolute;
+            left: 14.29vw;
+            background-color: orange;
+            animation-name: fadeout;
+            animation-delay: 0.5s;
+            animation-duration: 1s;
+            animation-timing-function: cubic-bezier(.5,.51,.54,.54);
+            /* set the iterations*/
+            animation-iteration-count: 7;
+            /* set the direction to alternate*/
+            animation-direction: alternate;
+        }
+        #y {
+            height: 100vw;
+            width: 14.29vw;
+            position: absolute;
+            left: 28.58vw;
+            background-color: yellow;
+            animation-name: fadeout;
+            animation-delay: 0.9s;
+            animation-duration: 1s;
+            animation-timing-function: cubic-bezier(.5,.51,.54,.54);
+            /* set the iterations*/
+            animation-iteration-count: 8;
+            /* set the direction to alternate*/
+            animation-direction: alternate;
+        }
+        #g {
+            height: 100vw;
+            width: 14.29vw;
+            position: absolute;
+            left: 42.87vw;
+            background-color: green;
+            animation-name: fadeout;
+            animation-delay: 1.3s;
+            animation-duration: 1s;
+            animation-timing-function: cubic-bezier(.5,.51,.54,.54);
+            /* set the iterations*/
+            animation-iteration-count: 9;
+            /* set the direction to alternate*/
+            animation-direction: alternate;
+        }
+        #b {
+            height: 100vw;
+            width: 14.29vw;
+            position: absolute;
+            left: 57.16vw;
+            background-color: blue;
+            animation-name: fadeout;
+            animation-delay: 1.7s;
+            animation-duration: 1s;
+            animation-timing-function: cubic-bezier(.5,.51,.54,.54);
+            /* set the iterations*/
+            animation-iteration-count: 10;
+            /* set the direction to alternate*/
+            animation-direction: alternate;
+        }
+        #i {
+            height: 100vw;
+            width: 14.29vw;
+            position: absolute;
+            left: 71.45vw;
+            background-color: indigo;
+            animation-name: fadeout;
+            animation-delay: 2.1s;
+            animation-duration: 1s;
+            animation-timing-function: cubic-bezier(.5,.51,.54,.54);
+            /* set the iterations*/
+            animation-iteration-count: 11;
+            /* set the direction to alternate*/
+            animation-direction: alternate;
+        }
+        #p {
+            height: 100vw;
+            width: 14.29vw;
+            position: absolute;
+            left: 85.74vw;
+            background-color: pink;
+            animation-name: fadeout;
+            animation-delay: 2.5s;
+            animation-duration: 1s;
+            animation-timing-function: cubic-bezier(.5,.51,.54,.54);
+            /* set the iterations*/
+            animation-iteration-count: 12;
+            /* set the direction to alternate*/
+            animation-direction: alternate;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="r"></div>
+    <div id="o"></div>
+    <div id="y"></div>
+    <div id="g"></div>
+    <div id="b"></div>
+    <div id="i"></div>
+    <div id="p"></div>
+</body>
+</html>

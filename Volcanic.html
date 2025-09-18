@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url("rocksss.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* Left triangle */
+  .triangle-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url("oceannn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    shape-outside: polygon(0% 0%, 100% 100%, 0% 100%);
+  }
+  /* Right triangle */
+  .triangle-right {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-image: url("lavaaa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+    shape-outside: polygon(100% 0%, 0% 100%, 100% 100%);
+  }
+
+  /* Text in the middle */
+  .text {
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.6;
+    text-align: justify;
+  }
+</style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="triangle-left"></div>
+    <div class="triangle-right"></div>
+    <div class="text">
+      <p>
+        This moʻolelo (story) was compiled using multiple sources. These include Keawe Vredenburgʻs “Poliahu and Pele: legend as information science” and W.D. Westerveltʻs “Pele and the Snow-Goddess. In nearly every culture, fire and ice have been opposing forces of equal strength, trapped in a never-ending battle. Hawaiian culture is no different. Snow is embodied by the snow goddess/deity Poliʻahu, who made her home upon Mauna Kea. She is said to be the most well known of the four kupua that live on the mountain, which are human beings with supernatural powers that don’t have the status of gods. Fire and lava are embodied by the goddess/deity Pele. In this story, Pele is referred to as Keahilele. Depending on the source, these individuals are known as either goddesses or kupua. The legend focuses on a holua sledding competition between Poliahu and Keahilele (Pele). Holua sledding was a hazardous sport that was also known as “land sledding” or “sled surfing.” Participants would slide down a steep, slick hill covered in dirt and kukui nut (candlenut) oil on a skinny, long sled at speeds of up to 60 miles per hour. Kīlauea has been constantly erupting since 1983, signaling Pele’s presence on the Big Island. The legend initially focuses on Poliʻahu and her three friends. The first friend, Lilinoe, embodied the mist that came down from the mountain. Waiau was the kupua (deity) of the underground reservoir collecting water from Mauna Kea, and Ka Houpo ʻo Kona was the bosom of Kāne, representing the springs of the island of Hawaiʻi. Poliʻahu and her three friends were enjoying their time holua sledding on the slopes of Mauna Kea, near Hāmākua, when they were joined by a woman visitor who claimed to be from the southernmost part of the Big Island. She indicated that her name was Keahilele and asked if she could join the competition, to which Lilinoe offered her the use of her holua (sled). After the competition, Keahilele was described as “flying fire” while racing, but Poliʻahu was judged the fastest racer. Keahilele became furious and caused the ground to shake violently. Keahilele hurled Lilinoe’s holua into the ground, causing cracks to form over the subterranean caverns of Mauna Kea, from which smoke and fire spewed out.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
